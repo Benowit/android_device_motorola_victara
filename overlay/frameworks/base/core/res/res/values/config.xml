@@ -367,5 +367,7 @@
      <string name="config_perf_profile_prop">powerhal</string>
      <string name="config_perf_profile_default_entry">1</string>
 
+    <!-- Doze: force using accelerometer as pick up sensor -->
+    <bool name="config_dozeUseAccelerometer">true</bool>
 </resources>
 
