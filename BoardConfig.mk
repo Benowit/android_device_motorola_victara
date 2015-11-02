@@ -40,7 +40,6 @@ TARGET_ARCH_VARIANT := armv7-a-neon
 TARGET_CPU_ABI := armeabi-v7a
 TARGET_CPU_ABI2 := armeabi
 TARGET_CPU_VARIANT := krait
-TARGET_USE_QCOM_BIONIC_OPTIMIZATION := true
 
 # Kernel
 BOARD_CUSTOM_BOOTIMG_MK := device/motorola/victara/mkbootimg.mk
@@ -102,9 +101,6 @@ TARGET_NR_SVC_SUPP_GIDS := 32
 
 # Lights
 TARGET_PROVIDES_LIBLIGHT := true
-
-# Motorola
-TARGET_USES_MOTOROLA_LOG := true
 
 # Partitions
 BOARD_FLASH_BLOCK_SIZE := 131072
