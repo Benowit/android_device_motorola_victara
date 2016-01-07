@@ -56,7 +56,6 @@ TARGET_KERNEL_CONFIG := cyanogenmod_victara_defconfig
 # Audio
 AUDIO_FEATURE_ENABLED_ANC_HEADSET := true
 AUDIO_FEATURE_ENABLED_EXTERNAL_SPEAKER := true
-AUDIO_FEATURE_ENABLED_HWDEP_CAL := true
 AUDIO_FEATURE_ENABLED_USBAUDIO := true
 BOARD_USES_ALSA_AUDIO := true
 AUDIO_FEATURE_ENABLED_FLUENCE := true
@@ -79,7 +78,6 @@ TARGET_USES_C2D_COMPOSITION := true
 TARGET_USES_ION := true
 USE_OPENGL_RENDERER := true
 OVERRIDE_RS_DRIVER := libRSDriver_adreno.so
-TARGET_USE_COMPAT_GRALLOC_PERFORM := true
 
 # Shader cache config options
 # Maximum size of the  GLES Shaders that can be cached for reuse.
@@ -130,6 +128,10 @@ TARGET_RECOVERY_FSTAB := $(LOCAL_PATH)/rootdir/etc/fstab.qcom
 TARGET_RECOVERY_PIXEL_FORMAT := "RGBA_8888"
 TARGET_USERIMAGES_USE_EXT4 := true
 TARGET_USERIMAGES_USE_F2FS := true
+
+# Ril
+BOARD_PROVIDES_LIBRIL := true
+BOARD_PROVIDES_RILD := true
 
 # SELinux
 include device/qcom/sepolicy/sepolicy.mk
