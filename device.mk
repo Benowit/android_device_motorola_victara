@@ -129,6 +129,10 @@ PRODUCT_PACKAGES += \
     regdbdump \
     regulatory.bin
 
+# CMActions
+PRODUCT_PACKAGES += \
+    MotoActions
+
 # Display
 PRODUCT_PACKAGES += \
     copybit.msm8974 \
