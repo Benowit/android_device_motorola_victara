@@ -133,10 +133,6 @@ PRODUCT_PACKAGES += \
     libgenlock \
     memtrack.msm8974
 
-# Gello
-PRODUCT_PACKAGES += \
-    Gello
-
 # GPS
 PRODUCT_PACKAGES += \
     gps.msm8974
@@ -214,7 +210,6 @@ PRODUCT_PACKAGES += \
     init.mmi.rc \
     init.mmi.touch.sh \
     init.mmi.usb.rc \
-    init.mmi.usb.sh \
     init.qcom.rc \
     init.qcom.usb.rc \
     init.recovery.qcom.rc \
